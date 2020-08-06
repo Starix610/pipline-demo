@@ -18,7 +18,6 @@ public class TestController {
         Map<String, Object> map = new HashMap<>();
         map.put("username", "zhangsan");
         map.put("age", "22");
-        map.put("test", true);
         return map;
     }
 
