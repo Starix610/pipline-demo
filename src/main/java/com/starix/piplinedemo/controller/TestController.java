@@ -14,10 +14,11 @@ import java.util.Map;
 public class TestController {
 
     @GetMapping("/test")
-    public Map<String, String> test(){
-        Map<String, String> map = new HashMap<>();
+    public Map<String, Object> test(){
+        Map<String, Object> map = new HashMap<>();
         map.put("username", "zhangsan");
         map.put("age", "22");
+        map.put("test", true);
         return map;
     }
 
